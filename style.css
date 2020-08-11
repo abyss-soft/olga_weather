@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "serif-regular";
+    font-style: normal;
+    font-weight: normal; 
+    src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+   }
+@font-face {
+    font-family: "serif-bold";
+    font-style: normal;
+    font-weight: normal; 
+    src: url("./fonts/Roboto-Bold.ttf") format("truetype");
+   }
+
+.page {
+    /* height: 1344px; */
+    /* height: 100vh; */
+    max-width: 320px;
+    margin: 0 auto;
+    background: linear-gradient(#0474CB 0%,#0044CC 20%, #0044CC 80%, #0474CB 95% );
+    font-family: 'serif-regular', serif;
+    font-size: 0.75rem;
+    color: white;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+/* @media (max-width: 600px) {
+    .header_menu{
+        padding: 0.5rem;
+    }
+  } */
+
+.main_picture{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 1rem 0 1rem; 
+}
+
+.big_degre{
+    display: flex;
+    font-size: 2.25rem;
+    font-family: 'serif-bold', serif;
+    color: #FFFF00;
+    margin-bottom: 0.5rem;
+
+}
+
+.degre_from_to{
+    display: flex;
+}
+
+.big_degre-up{
+    font-size: 1rem;
+}
+
+.degre_from_to-up{
+    font-size: 0.5rem;
+}
+
+.main_picture-right{
+    height: 7.5rem; 
+    width: 9.5rem;
+    background-image: url(./img/96_sunny.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.real_feel{
+    display: flex;
+}
+
+.main_pictire-description{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: space-around;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.update{
+    font-size: 0.5625rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.wrapper_card{
+    background-color: #0039AC;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.card_degre{
+    display: flex;
+    font-family: 'serif-bold', serif;
+    font-size: 0.8rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 3.375rem;
+    margin: 0.6875rem 0.3125rem;
+    align-items: center;
+}
+
+.weather_of_days{
+    display: flex;
+    padding: 0 1rem;
+    font-size: 1rem;
+    align-items: center;
+    height: 3.8125rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+
+}
+
+.weather_of_days-degree{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: flex-end;
+}
+
+.calendar{
+    flex-basis: 50%;
+}
+
+.weather_img{
+    flex-basis: 25%;
+    align-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.long_term_forcast{
+    display: flex;
+    
+}
+
+.empty{
+    flex-basis: 55%;
+
+}
+
+.long_term{
+    font-size: 0.5625rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    margin: 0.1rem 0rem;
+}
+
+.weather_comfort{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.wrapper_comfort{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    margin-bottom: 1rem;
+}
+
+.comfort_card{
+    flex-basis: 45%;
+    padding-left: 1rem;
+    margin: 1rem 0rem;
+}
+
+.weather_text{
+    padding-left: 1rem;
+}
+
+.comfort_card-description{
+    font-size: 0.75rem;
+}
+
+.comfort_card-name{
+    margin: 0.5rem 0;
+}
+
+.sunset_name{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.sunset_image{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+   
+}
+
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.waxing_text{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.restarge{
+    background: #EFEEEE;
+    width:200px;
+    height:100px;
+    box-shadow: rgba(255, 255, 255, 0.5);
+}
